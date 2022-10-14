@@ -1,0 +1,19 @@
+.test{
+   width: 300px;
+   margin: auto;
+   margin-top: 10rem;
+}
+.test button{
+    width: 5rem;
+    height: 5rem;
+    background-color: chartreuse;
+}
+.test .primary{
+    background-color: red;
+    margin-top: 20px;
+}
+
+.test .secondary{
+    background-color:aqua;
+    margin-top: 20px;
+}

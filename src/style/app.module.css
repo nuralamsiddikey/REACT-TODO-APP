@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+   
+    background-color: rgb(232, 228, 228);
+}
+.wrapper{
+    width: 70rem;
+    margin: auto;
+
+    margin-top: 50px;
+    min-height: 600px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    gap: 5px;
+}
+
+.body {
+    padding-top: 40px;
+}
+
+
+.text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}

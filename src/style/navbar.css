@@ -1,0 +1,75 @@
+.header {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 8vh;
+}
+
+.header .logo {
+    color: rgb(97, 12, 12);
+    font-size: 2.2rem;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.primary ul {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+}
+
+.primary ul li {
+    list-style: none;
+    padding:0 10px;
+}
+
+.primary ul li a {
+    text-decoration: none;
+    color: rgb(35, 164, 115);
+    font-size: 1.7rem;
+}
+
+.menu{
+    display: none;
+  
+}
+
+
+/* ========== */
+/* mobile responsive */
+/* ============= */
+.mobile_responsive{
+   width: 0;
+ visibility: hidden;
+}
+.mobile_responsive_show{
+   
+    background-color: rgb(194, 197, 200);
+    height: 100vh;
+    width: 25vh;
+    transition: .5s;
+}
+.mobile_responsive_show li{
+    list-style-type: none;
+    padding: 5px 0;
+}
+.mobile_responsive_show li a{
+    text-decoration: none;
+    font-size: 2.2rem;
+    color: rgb(70, 120, 68);
+    transition: .5s;
+}
+
+
+@media only screen and (max-width: 700px){
+    .menu{
+        display: block;
+    }
+   .primary ul{
+        display: none;
+    }
+    .header{
+        height: 8vh;
+    }
+}
